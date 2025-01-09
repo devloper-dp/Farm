@@ -18,18 +18,18 @@ export function CostAnalysisView({ analysis }: Props) {
         <div className="space-y-4">
           <div>
             <div className="text-sm text-gray-600">Fertilizer Cost</div>
-            <div className="text-lg font-semibold">${analysis.fertilizerCost.toFixed(2)}</div>
+            <div className="text-lg font-semibold">Rs.{analysis.fertilizerCost.toFixed(2)}</div>
           </div>
           
           <div>
             <div className="text-sm text-gray-600">Application Cost</div>
-            <div className="text-lg font-semibold">${analysis.applicationCost.toFixed(2)}</div>
+            <div className="text-lg font-semibold">Rs.{analysis.applicationCost.toFixed(2)}</div>
           </div>
           
           <div className="pt-2 border-t">
             <div className="text-sm text-gray-600">Total Cost</div>
             <div className="text-xl font-bold text-green-600">
-              ${analysis.totalCost.toFixed(2)}
+              Rs.{analysis.totalCost.toFixed(2)}
             </div>
           </div>
         </div>

@@ -93,7 +93,7 @@ import {
               },
               {
                 name: 'Pro',
-                price: '$29/mo',
+                price: 'RS.29/mo',
                 features: [
                   'Everything in Basic',
                   'Advanced analytics',
